@@ -1,12 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { MainContainer } from './Compenents/MainContainer';
+import { Header } from './Compenents/Header';
+import { Alert } from './Compenents/Alert';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Alert/>
+
+    <Header />
+
+    <MainContainer/>
   </React.StrictMode>,
   document.getElementById('root')
 );

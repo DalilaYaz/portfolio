@@ -1,0 +1,76 @@
+.formations_circleOne{
+    width: 250px;
+    height: 250px;
+    background: var(--circle-one);
+    top: 0%;
+    right: 0%;
+}
+
+.formations_circleThree{
+    width: 200px;
+    height: 200px;
+    background: var(--circle-two);
+    bottom: 0%;
+    left: 0%;
+}
+
+.formationsContainer{
+    row-gap: 2rem;
+    text-align: center;
+}
+
+.formations_text_Section .formations_subtitle{
+    margin-bottom: var(--mb-2);
+    font-size: var(--big-font-size);
+}
+
+.formations_text_Section .formations_subtitle span{
+    color: var(--first-color);
+    font-size: 3rem;
+}
+
+.formations_text_Section{
+    margin-bottom: var(--mb-2);
+}
+
+.formations_box{
+    min-width: 170px;
+    min-height: 210px;
+    width: 380px;
+    height: 275px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(
+        300deg, rgba(128,128,128,0.05) 0%,
+        rgba(255,255,255,0.4) 100%
+    );
+
+box-shadow: 3px 5px 20px rgba(0,0,0, O.15);
+padding: 10px 15px;
+border-radius: 10px;
+margin: var(--mb-2) O;
+}
+
+.formations_box h2{
+    color: var(--second-color);
+    font-size: var(--h2-font-size);
+}
+
+.formations_box{
+    font-size: 15px;
+    color: var(--text-color);
+    text-align: center;
+}
+
+
+
+@media screen and (min-width: 768px) {
+    .formationsContainer{
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        text-align: initial;
+    }
+
+}
