@@ -8,9 +8,8 @@ import { Alert } from './Compenents/Alert';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Alert/>
-
     <Header />
+    <Alert/>
 
     <MainContainer/>
   </React.StrictMode>,

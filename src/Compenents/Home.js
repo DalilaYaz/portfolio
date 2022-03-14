@@ -26,6 +26,10 @@ function Home() {
             <a href="" className='button'>
                 Me contacter
             </a>
+
+           <a href="https://firebasestorage.googleapis.com/v0/b/portfolio-221a7.appspot.com/o/CV.pdf?alt=media&token=4b0458a7-f379-494b-bf1a-65c8f8ac3ea2" className="button">
+               Mon CV
+            </a>
         </div>
 
         <div className='homeSocial'>
